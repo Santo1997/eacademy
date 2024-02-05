@@ -1,6 +1,4 @@
-import React from "react";
-
-const header = () => {
+const Header = () => {
   return (
     <div>
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
@@ -16,8 +14,19 @@ const header = () => {
             aria-controls="navbar-default"
             aria-expanded="false">
             <span className="sr-only">Open main menu</span>
-            <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+            <svg
+              className="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
@@ -66,4 +75,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
